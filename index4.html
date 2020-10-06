@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Shapes Game</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/release/v5.9.0/css/all.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="shapegame.css">
+    <script src="shapegame.js" defer></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+</head>
+<body>
+    <section class="draggable-elements">
+        <i class="fas fa-mobile  draggable" draggable="true" style="color: #ff6384;" id="mobile"></i>
+        <i class="fas fa-sd-card draggable" draggable="true" style="color: #36a2eb;" id="sd-card"></i>
+        <i class="fas fa-ethernet draggable" draggable="true" style="color: #ffce56;" id="ethernet"></i>
+        <i class="fas fa-keyboard draggable" draggable="true" style="color: #9966ff;" id="keyboard"></i>
+        <i class="fas fa-server draggable" draggable="true" style="color: #4bc0c0;" id="server"></i>
+
+      </section>
+      <section class="droppable-elements">
+        <div class="droppable" data-draggable-id="server"><span>Server</span></div>
+        <div class="droppable" data-draggable-id="ethernet"><span>Ethernet</span></div>
+        <div class="droppable" data-draggable-id="mobile"><span>Mobile</span></div>
+        <div class="droppable" data-draggable-id="keyboard"><span>Keyboard</span></div>
+        <div class="droppable" data-draggable-id="sd-card"><span>SD-Card</span></div>
+      </section>
+</body>
+</html>
