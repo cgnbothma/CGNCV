@@ -322,4 +322,5 @@ body::-webkit-scrollbar-thumb {
 	padding-top: 1.4rem;
 	padding-left: 15rem;
 	padding-right: 5rem;
+	align-items: center;
 	}
