@@ -104,7 +104,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: #000;
+  /*background: #000;*/
 }
 
 :root {
@@ -318,3 +318,8 @@ body::-webkit-scrollbar-thumb {
   }
 
   /*----------------EXTRA-------------------------*/
+  .pt-3-half {
+	padding-top: 1.4rem;
+	padding-left: 15rem;
+	padding-right: 5rem;
+	}
