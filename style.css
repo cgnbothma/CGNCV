@@ -9,7 +9,8 @@ body
 #header
 {
     height: 100vh;
-    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("Images/user1.jpg");
+    background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+    background-image: url("Images/user1.jpg");
     /*background: url(Images/backgroud2.jpg) repeat 0 0;*/
     background-position: center;
     background-size: cover;
