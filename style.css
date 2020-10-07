@@ -10,7 +10,8 @@ body
 {
     height: 100vh;
     background: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
-    background-image: url("backgroud2.JPG");
+    background-image: url("Images/backgroud2.JPG");
+    /*background: url(Images/backgroud2.jpg) repeat 0 0;*/
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -440,8 +441,8 @@ body
 .contact
 {
     padding-top: 50px;
-    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8));
-    background-image: url("backgroud2.JPG");
+    /*background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(Images/backgroud2.jpg);*/
+    background: url(Images/backgroud2.jpg) repeat 0 0;
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
@@ -467,6 +468,8 @@ body
     border-radius: 30px;
     border: 2px solid #fff;
     background: transparent;
+    background-color: transparent;
+    
 }
 
 .contact .btn:focus
@@ -535,14 +538,14 @@ body
 /*----------------LINK EFFECTS---------------------*/
 a{
     display: block;
-    color: white;
+    color:white;
     text-decoration: none;
     position: relative;
   }
   
   a::after{
     content: "";
-    background: white;
+    background: rgb(0, 0, 0);
       mix-blend-mode: exclusion;
     width: calc(100% + 20px);
     height: 0;
@@ -559,7 +562,7 @@ a{
   .note{
     top: auto;
     bottom: 0;
-    color: #ddd;
+    color: rgb(0, 0, 0);
     font-size: 13px;
     text-transform: none;
     font-weight: 300;
@@ -580,3 +583,4 @@ body::-webkit-scrollbar-track {
 body::-webkit-scrollbar-thumb {
 	background: #f9f9f9;
 }
+
