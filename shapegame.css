@@ -47,13 +47,12 @@ body {
 }
 .droppable span {
   font-size: 1.25rem;
-  pointer-events: none; /* The element is never the target of pointer events */
+  pointer-events: none; 
 }
 
-/* Drag and Drop Related Styling */
+/*Style for drag and drop */
 
 .droppable.droppable-hover {
-  /* background-color: #bee3f0; */
   border-width: 5px;
   transform: scale(1.1);
 }
